@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Item</title>
+</head>
+<body>
+<h2>Crear nuevo Item:</h2>
+<form id="itemForm" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required><br><br>
+
+    <label for="precioOro">Precio en oro:</label>
+    <input type="number" id="precioOro" min="0" required><br><br>
+
+    <label for="precioPlata">Precio en plata:</label>
+    <input type="number" id="precioPlata" min="0" required><br><br>
+
+    <label for="precioCobre">Precio en cobre:</label>
+    <input type="number" id="precioCobre" min="0" required><br><br>
+
+    <label for="descripcion">Descripción:</label><br>
+    <textarea id="descripcion" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="categoria">Categoría:</label>
+    <input type="text" id="categoria" required><br><br>
+
+    <label for="vanilla">Vanilla:</label>
+    <input type="checkbox" id="vanilla"><br><br>
+
+    <input type="submit" value="Enviar" onclick="crearItem(event)">
+</form>
+
+<script>
+    function crearItem(event) {
+      event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+
+      // Obtén los valores de los campos del formulario
+      var nombre = document.getElementById("nombre").value;
+      var precioOro = document.getElementById("precioOro").value;
+      var precioPlata = document.getElementById("precioPlata").value;
+      var precioCobre = document.getElementById("precioCobre").value;
+      var descripcion = document.getElementById("descripcion").value;
+      var categoria = document.getElementById("categoria").value;
+      var vanilla = document.getElementById("vanilla").checked;
+
+      // Crea el objeto Item
+      var item = {
+        nombre: nombre,
+        precio: {
+          oro: parseInt(precioOro),
+          plata: parseInt(precioPlata),
+          cobre: parseInt(precioCobre)
+        },
+        descripcion: descripcion,
+        categoria: categoria,
+        vanilla: vanilla,
+        creator: null
+      };
+
+      // Realiza la solicitud POST a la API
+      fetch("http://localhost:8080/items", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(item)
+      })
+      .then(response => response.json())
+      .then(data => {
+        // Manipula la respuesta de la API como desees
+        console.log("Objeto Item creado:", data);
+        alert("¡Item creado exitosamente!");
+        // Restablece el formulario
+        document.getElementById("itemForm").reset();
+      })
+      .catch(error => {
+        // Maneja el error en caso de que la solicitud falle
+        console.error("Error al crear el Item:", error);
+        alert("Error al crear el Item. Por favor, inténtalo nuevamente.");
+      });
+    }
+  </script>
+</body>
+</html>

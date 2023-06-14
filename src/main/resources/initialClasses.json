@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Barbarian",
+    "hitDice": 12,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Animal Handling",
+          "index": "ANI",
+          "characteristic": "WIS"
+        },
+        {
+          "name": "Athletics",
+          "index": "ATH",
+          "characteristic": "STR"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bard",
+    "hitDice": 8,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Acrobatics",
+          "index": "ACR",
+          "characteristic": "DEX"
+        },
+        {
+          "name": "Persuasion",
+          "index": "PER",
+          "characteristic": "CHA"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cleric",
+    "hitDice": 8,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "History",
+          "index": "HIS",
+          "characteristic": "INT"
+        },
+        {
+          "name": "Medicine",
+          "index": "MED",
+          "characteristic": "WIS"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Druid",
+    "hitDice": 8,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Nature",
+          "index": "NAT",
+          "characteristic": "INT"
+        },
+        {
+          "name": "Perception",
+          "index": "PER",
+          "characteristic": "WIS"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fighter",
+    "hitDice": 10,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Athletics",
+          "index": "ATH",
+          "characteristic": "STR"
+        },
+        {
+          "name": "Perception",
+          "index": "PER",
+          "characteristic": "WIS"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Monk",
+    "hitDice": 8,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Acrobatics",
+          "index": "ACR",
+          "characteristic": "DEX"
+        },
+        {
+          "name": "Stealth",
+          "index": "STL",
+          "characteristic": "DEX"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Paladin",
+    "hitDice": 10,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Athletics",
+          "index": "ATH",
+          "characteristic": "STR"
+        },
+        {
+          "name": "Persuasion",
+          "index": "PER",
+          "characteristic": "CHA"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ranger",
+    "hitDice": 10,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Animal Handling",
+          "index": "ANI",
+          "characteristic": "WIS"
+        },
+        {
+          "name": "Survival",
+          "index": "SUR",
+          "characteristic": "WIS"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Rogue",
+    "hitDice": 8,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Acrobatics",
+          "index": "ACR",
+          "characteristic": "DEX"
+        },
+        {
+          "name": "Stealth",
+          "index": "STL",
+          "characteristic": "DEX"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sorcerer",
+    "hitDice": 6,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Arcana",
+          "index": "ARC",
+          "characteristic": "INT"
+        },
+        {
+          "name": "Persuasion",
+          "index": "PER",
+          "characteristic": "CHA"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warlock",
+    "hitDice": 8,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Arcana",
+          "index": "ARC",
+          "characteristic": "INT"
+        },
+        {
+          "name": "Deception",
+          "index": "DEC",
+          "characteristic": "CHA"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wizard",
+    "hitDice": 6,
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Arcana",
+          "index": "ARC",
+          "characteristic": "INT"
+        },
+        {
+          "name": "History",
+          "index": "HIS",
+          "characteristic": "INT"
+        }
+      ]
+    }
+  }
+]

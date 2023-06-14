@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Human",
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Athletics",
+          "index": "ATH",
+          "characteristic": "STR"
+        },
+        {
+          "name": "Insight",
+          "index": "INS",
+          "characteristic": "WIS"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Elf",
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "Perception",
+          "index": "PER",
+          "characteristic": "WIS"
+        },
+        {
+          "name": "Acrobatics",
+          "index": "ACR",
+          "characteristic": "DEX"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dwarf",
+    "proficiencies": {
+      "proficientSkills": [
+        {
+          "name": "History",
+          "index": "HIS",
+          "characteristic": "INT"
+        },
+        {
+          "name": "Athletics",
+          "index": "ATH",
+          "characteristic": "STR"
+        }
+      ]
+    }
+  }
+]

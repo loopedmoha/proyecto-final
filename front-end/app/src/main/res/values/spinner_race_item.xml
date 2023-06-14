@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="race_array">
+        <item>Human</item>
+        <item>Dwarf</item>
+        <item>Elf</item>
+    </string-array>
+</resources>

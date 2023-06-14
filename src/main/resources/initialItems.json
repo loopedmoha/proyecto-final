@@ -1,0 +1,249 @@
+[
+  {
+    "uuid": "aa0f969c-ff32-4b12-95af-3c648c61902d",
+    "nombre": "Daga",
+    "precio": {
+      "oro": 2,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una daga de acero",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "8eae2430-bf37-49e0-a15a-b8245c0a470f",
+    "nombre": "Espada larga",
+    "precio": {
+      "oro": 15,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una espada de acero",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "2965d43b-9517-4f9c-9509-6090648e36c1",
+    "nombre": "Armadura de cuero",
+    "precio": {
+      "oro": 10,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una armadura de cuero",
+    "categoria": "ARMADURA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "b8d8275e-0f45-4f33-a30b-3c7d4dc7520e",
+    "nombre": "Armadura de placas",
+    "precio": {
+      "oro": 1500,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una armadura de placas",
+    "categoria": "ARMADURA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "02cdd9e3-2680-4ed4-8dfe-ebc7c4a854f0",
+    "nombre": "Escudo",
+    "precio": {
+      "oro": 10,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un escudo de madera",
+    "categoria": "ARMADURA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "d432d4df-1ad3-4093-a2f3-04e7a6dc7d23",
+    "nombre": "Baston",
+    "precio": {
+      "oro": 2,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un baston de madera",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "6b4ae4db-8a16-4682-a898-5fe1f8f5e89e",
+    "nombre": "Arco corto",
+    "precio": {
+      "oro": 25,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un arco corto de madera",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "d1097151-9a60-4e49-83ae-3a5032d960ed",
+    "nombre": "Ballesta ligera",
+    "precio": {
+      "oro": 25,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una ballesta ligera de madera",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "50f16f66-2c5a-4e4b-819a-2c72d20dfe1f",
+    "nombre": "Hacha de batalla",
+    "precio": {
+      "oro": 10,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un hacha de batalla de acero",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "b50a6f7f-ee88-4a34-9b9e-62ed99c7a825",
+    "nombre": "Espadon",
+    "precio": {
+      "oro": 50,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un espadon de acero",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "f35c6f8b-6d6b-40f4-aabf-5b5e15b234db",
+    "nombre": "Maza",
+    "precio": {
+      "oro": 5,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una maza de acero",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "ec1c3c83-64c9-4597-bc66-950cf777a89f",
+    "nombre": "Lanza",
+    "precio": {
+      "oro": 1,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una lanza de acero",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "98a54a14-daca-42dd-8aef-43cb7d091285",
+    "nombre": "Arco largo",
+    "precio": {
+      "oro": 75,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un arco largo de madera",
+    "categoria": "ARMA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "aa20a43e-7d61-41f3-bc8a-5e4e6f2c4c95",
+    "nombre": "Armadura acolchada",
+    "precio": {
+      "oro": 5,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una armadura acolchada",
+    "categoria": "ARMADURA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "ae11f1b3-fa1e-475f-868a-0a6149264b4c",
+    "nombre": "Camison de malla",
+    "precio": {
+      "oro": 30,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un camison de malla",
+    "categoria": "ARMADURA",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "b812512b-11e0-4a7f-a7fc-94c1c16b5a1e",
+    "nombre": "Abaco",
+    "precio": {
+      "oro": 2,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Un abaco de madera",
+    "categoria": "OBJETO",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "3dc93f8d-cf9f-4315-8247-9b5d98d4c78b",
+    "nombre": "Antorcha",
+    "precio": {
+      "oro": 1,
+      "plata": 0,
+      "cobre": 0
+    },
+    "descripcion": "Una antorcha",
+    "categoria": "OBJETO",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "e9ae5dbd-bf55-4e5d-9685-50f3dc0ee3e1",
+    "nombre": "Racion de viaje",
+    "precio": {
+      "oro": 0,
+      "plata": 5,
+      "cobre": 0
+    },
+    "descripcion": "Una racion de viaje",
+    "categoria": "CONSUMIBLE",
+    "vanilla": true,
+    "creator": null
+  },
+  {
+    "uuid": "1c58ee2b-7599-477d-a058-199cbe0576ad",
+    "nombre": "Poción de curación",
+    "precio": {
+      "oro": 0,
+      "plata": 50,
+      "cobre": 0
+    },
+    "descripcion": "Una poción de curación",
+    "categoria": "CONSUMIBLE",
+    "vanilla": true,
+    "creator": null
+  }
+]

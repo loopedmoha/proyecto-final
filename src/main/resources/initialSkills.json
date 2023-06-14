@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Athletics",
+    "index": "ATH",
+    "characteristic": "STR"
+  },
+  {
+    "name": "Acrobatics",
+    "index": "ACR",
+    "characteristic": "DEX"
+  },
+  {
+    "name": "Stealth",
+    "index": "STL",
+    "characteristic": "DEX"
+  },
+  {
+    "name": "Arcana",
+    "index": "ARC",
+    "characteristic": "INT"
+  },
+  {
+    "name": "History",
+    "index": "HIS",
+    "characteristic": "INT"
+  },
+  {
+    "name": "Investigation",
+    "index": "INV",
+    "characteristic": "INT"
+  },
+  {
+    "name": "Nature",
+    "index": "NAT",
+    "characteristic": "INT"
+  },
+  {
+    "name": "Religion",
+    "index": "REL",
+    "characteristic": "INT"
+  },
+  {
+    "name": "Animal Handling",
+    "index": "ANI",
+    "characteristic": "WIS"
+  },
+  {
+    "name": "Insight",
+    "index": "INS",
+    "characteristic": "WIS"
+  },
+  {
+    "name": "Medicine",
+    "index": "MED",
+    "characteristic": "WIS"
+  },
+  {
+    "name": "Perception",
+    "index": "PER",
+    "characteristic": "WIS"
+  },
+  {
+    "name": "Survival",
+    "index": "SUR",
+    "characteristic": "WIS"
+  },
+  {
+    "name": "Deception",
+    "index": "DEC",
+    "characteristic": "CHA"
+  },
+  {
+    "name": "Intimidation",
+    "index": "INT",
+    "characteristic": "CHA"
+  },
+  {
+    "name": "Performance",
+    "index": "PERF",
+    "characteristic": "CHA"
+  },
+  {
+    "name": "Persuasion",
+    "index": "PER",
+    "characteristic": "CHA"
+  }
+]

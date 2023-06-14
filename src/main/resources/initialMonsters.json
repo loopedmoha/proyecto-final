@@ -1,0 +1,132 @@
+[
+  {
+    "uuid": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+    "name": "Goblin",
+    "stats": {
+      "attributes": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 12,
+        "intelligence": 8,
+        "wisdom": 10,
+        "charisma": 6
+      },
+      "armorClass": 13,
+      "initiative": 2,
+      "speed": 30,
+      "hitPoints": 7,
+      "hitDices": 2,
+      "deathSaves": 0
+    },
+    "lootTable": {
+      "items": [],
+      "goldCoins": 50,
+      "silverCoins": 100,
+      "copperCoins": 0
+    }
+  },
+  {
+    "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "name": "Skeleton",
+    "stats": {
+      "attributes": {
+        "strength": 10,
+        "dexterity": 12,
+        "constitution": 10,
+        "intelligence": 6,
+        "wisdom": 8,
+        "charisma": 5
+      },
+      "armorClass": 12,
+      "initiative": 1,
+      "speed": 30,
+      "hitPoints": 10,
+      "hitDices": 2,
+      "deathSaves": 0
+    },
+    "lootTable": {
+      "items": [],
+      "goldCoins": 20,
+      "silverCoins": 50,
+      "copperCoins": 0
+    }
+  },
+  {
+    "uuid": "2ddbf00a-4e2a-4a67-b29b-972c297b8b19",
+    "name": "Orc",
+    "stats": {
+      "attributes": {
+        "strength": 16,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 7,
+        "wisdom": 11,
+        "charisma": 10
+      },
+      "armorClass": 15,
+      "initiative": 1,
+      "speed": 30,
+      "hitPoints": 15,
+      "hitDices": 3,
+      "deathSaves": 0
+    },
+    "lootTable": {
+      "items": [],
+      "goldCoins": 100,
+      "silverCoins": 75,
+      "copperCoins": 0
+    }
+  },
+  {
+    "uuid": "11223344-5566-7788-99aa-bbccddeeff00",
+    "name": "Spider",
+    "stats": {
+      "attributes": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 10,
+        "intelligence": 2,
+        "wisdom": 12,
+        "charisma": 4
+      },
+      "armorClass": 14,
+      "initiative": 3,
+      "speed": 30,
+      "hitPoints": 6,
+      "hitDices": 1,
+      "deathSaves": 0
+    },
+    "lootTable": {
+      "items": [],
+      "goldCoins": 0,
+      "silverCoins": 0,
+      "copperCoins": 0
+    }
+  },
+  {
+    "uuid": "ee4e6c2c-644b-4a8f-a14a-9543762df641",
+    "name": "Dragon",
+    "stats": {
+      "attributes": {
+        "strength": 20,
+        "dexterity": 14,
+        "constitution": 18,
+        "intelligence": 16,
+        "wisdom": 12,
+        "charisma": 20
+      },
+      "armorClass": 18,
+      "initiative": 4,
+      "speed": 60,
+      "hitPoints": 100,
+      "hitDices": 10,
+      "deathSaves": 0
+    },
+    "lootTable": {
+      "items": [],
+      "goldCoins": 1000,
+      "silverCoins": 500,
+      "copperCoins": 100
+    }
+  }
+]
